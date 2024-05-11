@@ -8,10 +8,10 @@ This challenge invites students to debug, refactor, and enhance JavaScript funct
 
 ![alt text](mars.gif)
 
-##### Problem Areas to Address
+##### Problem Areas Addressed
 
-1. **Unit Mismatch**: The provided functions fail to convert units correctly, leading to calculation inaccuracies.
-2. **Parameter Misalignment**: Parameters are not handled in a way that prevents or highlights the potential for unit mismatch errors, leading to possible confusion.
+1. **Unit Mismatch**: The provided functions converts units correctly, leading to calculation accuracies.
+2. **Parameter Misalignment**: Parameters are handled in a way that prevents or highlights the potential for unit mismatch errors.
 
 ##### Initial Parameters
 
@@ -22,25 +22,8 @@ This challenge invites students to debug, refactor, and enhance JavaScript funct
 - **Initial Fuel (`fuel`)**: The starting amount of fuel, 5,000 kg.
 - **Fuel Burn Rate (`fbr`)**: The rate at which fuel is consumed, 0.5 kg/s.
 
-##### Expected Corrected Results
+##### Corrected Results
 
-- **New Velocity**: Approximately 48880 km/h after correction.
-- **New Distance**: Approximately 10000 km after correction.
-- **Remaining Fuel**: Approximately 3,200 kg after correction.
-
-#### Your Task
-
-1. **Identify and Understand Errors**: Analyse the provided functions to determine how unit mismatches and parameter misalignments cause incorrect results.
-2. **Refactor and Correct**: Modify the functions to handle parameters more effectively, incorporating object destructuring for clarity and implementing necessary unit conversions.
-
-#### Solution Approach
-
-- Use object destructuring in function parameters for better clarity.
-- Implement accurate unit conversions within the functions.
-- Ensure the corrected functions address the issues of unit mismatches and parameter clarity.
-
-#### Debugging Guide
-
-1. Enhance code readability for easier debugging.
-2. Identify and correct calculation errors.
-3. Improve the robustness of calculations. If incorrect units are used or other errors are detected, the code should notify the user instead of producing an incorrect result.
+- **New Velocity**: 48880 km/h after correction.
+- **New Distance**: 10000 km after correction.
+- **Remaining Fuel**: 3,200 kg after correction.
